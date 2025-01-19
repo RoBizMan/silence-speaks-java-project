@@ -74,7 +74,7 @@ public class ConnectedCitiesChecker {
 
     public static void main(String[] args) {
         ConnectedCitiesChecker cc = new ConnectedCitiesChecker();
-        String filePath = "connected_cities/CitiesNodes.txt";
+        String filePath = "src/main/java/connected_cities/CitiesNodes.txt";
 
         try {
             cc.loadCitiesNodes(filePath);

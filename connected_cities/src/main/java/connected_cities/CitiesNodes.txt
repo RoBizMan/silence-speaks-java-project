@@ -1,0 +1,10 @@
+London, Bristol
+Bristol, Birmingham
+Plymouth, Nottingham
+Leicester, Liverpool
+Southampton, Bristol
+Manchester, Glasgow
+Belfast, Cardiff
+Cardiff, Edinburgh
+Oxford, Manchester
+Newcastle, Hull
