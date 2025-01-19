@@ -150,6 +150,7 @@ It also helped with milestone iterations.
 All previously closed/fixed bugs can be tracked [here](https://github.com/RoBizMan/silence-speaks-java-project/issues?q=is%3Aissue+is%3Aclosed).
 
 | Bug |	Status |
+| - | - |
 | [Text file not found while compiling Java](https://github.com/RoBizMan/silence-speaks-java-project/issues/25) | Closed |
 
 ### Open Issues
