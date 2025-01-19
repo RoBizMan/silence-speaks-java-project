@@ -99,6 +99,57 @@ Plymouth and Leicester are NOT connected.
 
 ---
 
+## REST API
+
+This microservice echoes messages received via HTTP POST and GET requests, including a timestamp in the response. Spring Boot is the chosen framework for this project as it is a robust and scalable framework.
+
+### Instructions
+
+1. Ensure that you have Java and Maven installed on your system.
+
+2. Run the application:
+
+```
+cd rest_api
+mvn spring-boot:run
+```
+
+3. Open a new terminal.
+
+4. To send a GET request, type:
+
+```
+curl "http://localhost:8081/echo?message=Hello"
+```
+
+This will return the request with the message and timestamp.
+
+5. To send a POST request, type:
+
+```
+curl -X POST http://localhost:8081/echo -H "Content-Type: application/json" -d '{"message": "Hello, World!"}'
+```
+
+This will return the request with the message and timestamp.
+
+### Example Usage
+
+#### Send a GET request
+
+```
+$ curl "http://localhost:8081/echo?message=Hello"
+{"message":"Hello","timestamp":"2025-01-19T18:12:13.777636"}
+```
+
+#### Send a POST request
+
+```
+$ curl -X POST http://localhost:8081/echo -H "Content-Type: application/json" -d '{"message": "Hello, World!"}'
+{"message":"Hello, World!","timestamp":"2025-01-19T18:14:27.923479"}
+```
+
+---
+
 ## Testing
 
 Each program includes unit tests to verify functionality.
@@ -110,6 +161,16 @@ Each program includes unit tests to verify functionality.
 To run tests, use:
 
 ```
+cd connected_cities
+mvn test
+```
+
+### REST API
+
+To run tests, use:
+
+```
+cd rest_api
 mvn test
 ```
 
