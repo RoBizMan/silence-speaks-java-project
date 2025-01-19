@@ -75,6 +75,7 @@ javac src/main/java/connected_cities/ConnectedCitiesChecker.java -d app
 3. Run the program:
 
 ```
+cd connected_cities
 java -cp connected_cities/app connected_cities.ConnectedCitiesChecker
 ```
 
@@ -118,7 +119,8 @@ javac src/main/java/com/example/race_simulation/*.java -d app
 2. Run the program:
 
 ```
-java -cp race_simulation/app com.example.race_simulation.StartRace
+cd race_simulation
+java -cp app race_simulation.src.main.java.com.example.race_simulation.StartRace
 ```
 
 3. Follow the prompts to start the simulation and enter the number of races to simulate.
