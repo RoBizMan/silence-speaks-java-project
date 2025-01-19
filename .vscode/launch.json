@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StartRace",
+            "request": "launch",
+            "mainClass": "race_simulation.src.main.java.com.example.race_simulation.StartRace",
+            "projectName": "silence-speaks-java-project_ba619f32"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-RestApiApplication<rest_api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
