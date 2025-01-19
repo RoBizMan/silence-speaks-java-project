@@ -246,3 +246,7 @@ There are no remaining bugs that I am aware of.
 | [Milos Simic](https://www.baeldung.com/cs/dfs-vs-bfs) | Depth-First Search vs. Breadth-First Search |
 | [Siddosamith](https://siddosamith.medium.com/graph-traversals-in-java-dfs-bfs-a91910f6b9f9) | Graph Traversals in Java DFS & BFS |
 | [Javatpoint](https://www.javatpoint.com/bfs-vs-dfs) | BFS vs. DFS |
+| [PW Skills](https://pwskills.com/blog/spring-boot-rest-api-tutorial-best-practices-and-examples/) | Spring Boot Rest API: Tutorial, Best Practices, and Examples |
+| [Spring](https://spring.io/guides/tutorials/rest) | Building REST services with Spring |
+| [Pratik T](https://medium.com/@pratik.941/building-rest-api-using-spring-boot-a-comprehensive-guide-3e9b6d7a8951) | Building REST API Using Spring Boot: A Comprehensive Guide |
+| [Aqeel Abbas](https://medium.com/javajams/creating-a-rest-api-in-spring-boot-68ce785f652f) | Creating a Rest API in Spring Boot |
