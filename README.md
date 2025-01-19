@@ -72,7 +72,7 @@ javac src/main/java/connected_cities/ConnectedCitiesChecker.java -d app
 3. Run the program:
 
 ```
-java -cp app connected_cities.ConnectedCitiesChecker
+java -cp connected_cities/app connected_cities.ConnectedCitiesChecker
 ```
 
 4. Input two city names when prompted.
