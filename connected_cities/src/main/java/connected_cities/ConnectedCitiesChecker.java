@@ -1,3 +1,5 @@
+package connected_cities;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
