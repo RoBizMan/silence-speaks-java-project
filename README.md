@@ -13,6 +13,8 @@ This repository contains my solutions to the Java coding project provided by Sil
 ## Table of Contents
 - [Running the Programs](#running-the-programs)
 - [Connected Cities Checker](#connected-cities-checker)
+- [Race Simulation](#race-simulation)
+- [REST API](#rest-api)
 - [Testing](#testing)
 - [Agile Development Process](#agile-development-process)
 - [GitHub Issues](#github-issues)
@@ -66,6 +68,7 @@ Plymouth, Nottingham
 2. Compile the program:
 
 ```
+cd connected_cities
 javac src/main/java/connected_cities/ConnectedCitiesChecker.java -d app
 ```
 
@@ -95,6 +98,58 @@ Graph loaded successfully
 Enter the first city (or type 'exit' to quit): Plymouth
 Enter the second city (or type 'exit' to quit): Leicester
 Plymouth and Leicester are NOT connected.
+```
+
+---
+
+## Race Simulation
+
+This program simulates races between different types of vehicles and determines the winner based on their race times.
+
+### Instructions
+
+1. Compile the program:
+
+```
+cd race_simulation
+javac src/main/java/com/example/race_simulation/*.java -d app
+```
+
+2. Run the program:
+
+```
+java -cp race_simulation/app com.example.race_simulation.StartRace
+```
+
+3. Follow the prompts to start the simulation and enter the number of races to simulate.
+
+### Example Usage
+
+#### Starting the simulation:
+
+```
+Press Enter to start the simulation or type 'quit' to exit: 
+Enter the number of races to simulate (minimum - 1 to maximum - 50): 3
+Race 1: Winner is Royal Enfield with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Race 2: Winner is Hindustan Ambassador with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Race 3: Winner is Tata 1210 with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Simulation complete. Type 'restart' to simulate again or 'quit' to exit: quit
+Exiting the race simulation. Goodbye!
+```
+
+#### Restarting the simulation:
+
+```
+Press Enter to start the simulation or type 'quit' to exit: 
+Enter the number of races to simulate (minimum - 1 to maximum - 50): 2
+Race 1: Winner is Royal Enfield with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Race 2: Winner is Hindustan Ambassador with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Simulation complete. Type 'restart' to simulate again or 'quit' to exit: restart
+Restarting the simulation...
+Enter the number of races to simulate (minimum - 1 to maximum - 50): 1
+Race 1: Winner is Tata 1210 with times: Royal Enfield: 2m 5.50s, Hindustan Ambassador: 3m 20.00s, Tata 1210: 5m 0.75s
+Simulation complete. Type 'restart' to simulate again or 'quit' to exit: quit
+Exiting the race simulation. Goodbye!
 ```
 
 ---
@@ -165,6 +220,15 @@ cd connected_cities
 mvn test
 ```
 
+### Race Simulation
+
+To run tests, use:
+
+```
+cd race_simulation
+mvn test
+```
+
 ### REST API
 
 To run tests, use:
@@ -213,6 +277,7 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/RoBizM
 | Bug |	Status |
 | - | - |
 | [Text file not found while compiling Java](https://github.com/RoBizMan/silence-speaks-java-project/issues/25) | Closed |
+| [Cannot run ConnectedCitiesChecker program](https://github.com/RoBizMan/silence-speaks-java-project/issues/26) | Closed |
 
 ### Open Issues
 
@@ -250,3 +315,6 @@ There are no remaining bugs that I am aware of.
 | [Spring](https://spring.io/guides/tutorials/rest) | Building REST services with Spring |
 | [Pratik T](https://medium.com/@pratik.941/building-rest-api-using-spring-boot-a-comprehensive-guide-3e9b6d7a8951) | Building REST API Using Spring Boot: A Comprehensive Guide |
 | [Aqeel Abbas](https://medium.com/javajams/creating-a-rest-api-in-spring-boot-68ce785f652f) | Creating a Rest API in Spring Boot |
+| [Gopikrishnan Naranathu Sivaprasad](https://gkns.medium.com/horse-race-simulation-a-java-threading-exercise-bad177e9e4ce) | Horse race simulation - A Java threading exercise |
+| [Project Gurukul](https://projectgurukul.org/java-car-race-game/) | Java Car Race Game - Race to Victory |
+| [Daniweb](https://www.daniweb.com/programming/software-development/threads/279141/need-help-with-a-java-program-simulating-a-drag-race) | Need help with a Java program simulating a drag race |
