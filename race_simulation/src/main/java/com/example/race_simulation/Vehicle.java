@@ -1,4 +1,4 @@
-package race_simulation.src.main.java.com.example.race_simulation;
+package com.example.race_simulation;
 
 public abstract class Vehicle {
     protected String name;

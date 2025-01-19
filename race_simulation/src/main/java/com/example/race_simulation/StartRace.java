@@ -1,4 +1,4 @@
-package race_simulation.src.main.java.com.example.race_simulation;
+package com.example.race_simulation;
 
 import java.util.Map;
 import java.util.Scanner;
